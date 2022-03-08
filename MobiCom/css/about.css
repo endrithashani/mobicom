@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    width: 100%;
+}
+header{
+    display: flex;
+    width: 100%;
+}
+header img{
+    width: 200px;
+    height: 200px;
+    margin-left: 130px;
+}
+ul {
+    display: flex;
+    margin-left: 50%;
+}
+li{
+    display: flex;
+    text-align: center;
+    margin-top: 80px;
+}
+li a{
+    text-decoration: none;
+    padding: 7px;
+    font-size: 20px;
+    color: #80d4ff;
+}
+a:hover{
+color:#2439ED;
+font-weight: bold;
+}
+.main img{
+    width: 50%;
+}
+.main{
+    display: flex;
+    width: 75%;
+    margin-left: 10%;
+    height: 490px;
+}
+.text-main{
+    margin-top: 10%;
+    text-align: center;
+    margin-right: 20px;
+}
+.text-main h1{
+    font-size: 52px;
+    color: #80d4ff;
+    margin-bottom: 15px;
+}
+.text-main p{
+    font-size: 18px;
+}
+.line-above{
+    width: 75%;
+    margin-left: 10%;
+    height: 1px;
+    background-color: #A2BAE0;
+    margin-top: 100px;
+    opacity: 50%;
+}
+
+footer{
+    display: flex;
+    width: 75%;
+    margin-left: 10%;
+    height: 300px;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+.logo-f img{
+    margin-left :110px;
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+}
+.social-ff img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.social-f{
+    margin-left: 90px;
+}
+.left{
+    width: 400px;
+    height: 400px;
+    margin-left: 60px;
+}
+.middle{
+    flex-direction: row;
+    width: 400px;
+    height: 400px;
+    text-align: left;
+}
+.tekst{
+    display: flex;
+    margin-top: 150px;
+}
+.text-f{
+    margin-left: 70px;
+    margin-right: 40px;
+}
+.text-ff{
+    margin-right: 40px;
+}
+.left-nr{
+    display: flex;
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 130px;
+}
+.left-nr img{
+    width: 50px;
+    height: 50px;
+}
+.nr-tel{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.left-nr2{
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.left-nr2 img{
+    width: 50px;
+    height: 50px;
+}
+.line-f{
+    height: 240px;
+    background-color: #A2BAE0;
+    width: 0.5px;
+    margin-top: 60px;
+    margin-left: 50px;
+    opacity: 30%;
+}
+.login{
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    border:1px solid #A2BAE0;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    margin-left: 15px;
+}
